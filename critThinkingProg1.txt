@@ -1,0 +1,27 @@
+Requirements:
+- Dynam--alloc Array
+- userdefined num of scores
+- Negative num checker
+- Sort scores
+- Drop lowest
+- Average scores
+- Output sorted scores and Average
+- Headings for scores/avgs
+- ** use pointer not. when possible
+- separate functions
+
+
+    First, make the function that allows the user to 
+define the size & contents of the array. Make sure
+negative nums/ letters can not be entered for both.
+Add the scores via pointer as they are inputted.
+
+    Sort the array from small->large using any algorithm.
+It is likely Prof. Comp will manually input 3-4 nums.
+Subtract contents of array[0], then divide by
+sizeof(array) / sizeof(array[0]) (will test for 2 byte
+integers)
+
+    Print out headers with proper spacing. Then
+scores/avg's, each on new lines. 
+
